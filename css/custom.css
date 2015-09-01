@@ -91,8 +91,9 @@ body {
 }
 
 .resume {
-background: linear-gradient(to bottom, #88C6B9 0%, #88C6B9 62%, #E2E4B3 100%) repeat scroll 0 0;
+    background-color: #fafafa;
 }
+
     
 img {
     width: 100%;
@@ -100,4 +101,38 @@ img {
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: none;
+}
+
+.nav-justified {
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.nav-justified > li > a {
+    text-align: center;
+    color: #EE6610;
+    border: solid 1px #EE6610;
+    width: 80%;
+    margin: auto;
+    min-width: 200px;
+}
+
+.nav-pills > li.active > a:hover , .nav-pills > li.active > a {
+    color: #fefefe;
+    background-color: #EE6610 !important;
+}
+
+.nav > li > a:hover {
+    text-decoration: none;
+background-color: #EE6610;
+color: #fefefe;
+}
+
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #fafafa;
 }

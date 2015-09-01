@@ -71,23 +71,6 @@ header {
     letter-spacing: 3px;
 }
 
-#resume-head {
-    margin-top: auto;
-    margin-bottom: auto;
-    color: #CB5750;
-    text-align: center;
-    padding-top: 50px;
-    font-size: 30px;  
-}
-
-
-
-.social {
-    float: right; 
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
 
 
 .header h1 {
@@ -100,14 +83,18 @@ header {
     color:#404040;
 }
 
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 
 <!---------------------- MAIN CONTENT -----------------------> 
 
 <!---------------------- PROFILE -----------------------> 
 
-.profile {
-    background-color: #f3f3f3;
-}
 
 .profile-header {
     text-transform: uppercase;
@@ -185,4 +172,7 @@ header {
     padding-top: 50px;
     color: #fafafa;
 }
+
+<!---------------------- RESUME -----------------------> 
+
 
