@@ -8,6 +8,7 @@ body {
 
 
 
+
 p {
     text-align: justify;
     font-size: 20px;
@@ -175,4 +176,6 @@ hr {
 
 <!---------------------- RESUME -----------------------> 
 
-
+.progressbar-percent {
+    float: right;
+}
