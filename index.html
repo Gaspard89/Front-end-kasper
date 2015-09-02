@@ -7,8 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Kasper &mdash; Resume</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" type="text/css" href="icons.css"> 
+<link rel="stylesheet" type="text/css" href="style.css"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
@@ -81,7 +80,7 @@
             <div class="row">
             <div class="col-md-4">
                 <div class="first-circle">
-                    <span><i class="fa fa-pencil-square-o fa-5x"></i></span>
+                    <span class="pen-icon"><i class="fa fa-pencil-square-o fa-5x"></i></span>
                     <span class="circle-title">DESIGNER</span>
                 </div> 
                 <div class="text_area">
@@ -127,45 +126,77 @@
             <div class="tab-content">
                 <div class="tab-pane fade in active" id="Developer-skills">
                     <div class="row">
-                        <div class="col-md-6">
-                            <h3>SKILLS</h3>
+                        <div class="col-md-8">
+                            <h3 class="skills-header">SKILLS</h3>
                             <div class="skills-content">
-                                <div class="first-skill">
-                                    <img class="brand-icons" src="img/html.png" alt="HTML 5">
-                                    <div class="progressbar-title">
-                                        <span class="progressbar-head">HTML</span>
-                                        <span class="progressbar-percent">50%</span>
-                                    </div>
-                                    <div class="progressbar" data-percentage="50%"></div>
+                                <div class="skills">
+                                    <div class="row">
+                                        <div class="col-xs-2">
+                                        <img class="brand-icons" src="img/html.png" alt="HTML 5">
+                                        </div>
+                                        <div class="col-xs-10">
+                                        <div class="progressbar-title">
+                                            <span class="progressbar-head">HTML</span>
+                                            <span class="progressbar-percent" data-percentage="70"></span>
+                                        </div>
+                                        <div class="progressbar">
+                                            <div class="progressbar-html gowno" data-percentage="70"></div>
+                                            </div>
+                                        </div>
                                 </div>
-                                <div class="second-skill">
-                                    <img class="brand-icons" src="img/css.png" alt="CSS 3">
-                                    <div class="progressbar-title">
-                                        <span class="progressbar-head">CSS</span>
-                                        <span class="progressbar-percent">50%</span>
-                                    </div>
-                                    <div class="progressbar" data-percentage="50%"></div>
-                                    </div>
-                                <div class="third-skill">
-                                    <img class="brand-icons" src="img/bootstrap.png" alt="Bootstrap">
-                                    <div class="progressbar-title">
-                                        <span class="progressbar-head">Bootstrap</span>
-                                        <span class="progressbar-percent">50%</span>
-                                    </div>
-                                    <div class="progressbar" data-percentage="50%"></div>
                                 </div>
-                                <div class="fourth-skill">
-                                    <img class="brand-icons" src="img/wp.png" alt="Wordpress">
-                                    <div class="progressbar-title">
-                                        <span class="progressbar-head">Wordpress</span>
-                                        <span class="progressbar-percent">50%</span>
+                                <div class="skills">
+                                    <div class="row">
+                                        <div class="col-xs-2">
+                                        <img class="brand-icons" src="img/css.png" alt="CSS 3">
+                                        </div>
+                                        <div class="col-xs-10">
+                                        <div class="progressbar-title">
+                                            <span class="progressbar-head">CSS</span>
+                                            <span class="progressbar-percent" data-percentage="50"></span>
+                                        </div>
+                                        <div class="progressbar">
+                                        <div class="progressbar-css gowno" data-percentage="50"></div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="progressbar" data-percentage="50%"></div>
+                                    </div>
+                                <div class="skills">
+                                    <div class="row">
+                                        <div class="col-xs-2">
+                                        <img class="brand-icons" src="img/bootstrap.png" alt="Bootstrap">
+                                        </div>
+                                        <div class="col-xs-10">
+                                        <div class="progressbar-title">
+                                            <span class="progressbar-head">Bootstrap</span>
+                                            <span class="progressbar-percent" data-percentage="30"></span>
+                                        </div>
+                                        <div class="progressbar">
+                                            <div class="progressbar-bs gowno" id="gowno" data-percentage="30"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                <div class="skills">
+                                    <div class="row">
+                                        <div class="col-xs-2">
+                                        <img class="brand-icons" src="img/wp.png" alt="Wordpress">
+                                        </div>
+                                        <div class="col-xs-10">
+                                        <div class="progressbar-title">
+                                            <span class="progressbar-head">Wordpress</span>
+                                            <span class="progressbar-percent" data-percentage="80"></span>
+                                        </div>
+                                        <div class="progressbar">
+                                            <div class="progressbar-wp gowno" id="gowno" data-percentage="80"></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <h3>TECHNOLOGIES</h3>
+                        <div class="col-md-4">
+                            <h3 class="skills-header">TECHNOLOGIES</h3>
                             <div class="row">
                                 <div class="row-icons">
                                 <div class="col-md-3"><img class="brand-icons" src="img/html.png" alt="HTML 5"></div>
@@ -195,6 +226,8 @@
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/skills.js"></script>
+<script src="js/circle.js"></script>
 
 </body>
 </html>

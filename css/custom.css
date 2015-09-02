@@ -158,19 +158,60 @@ hr {
 .progressbar {
     background: #D2D2D2;
     display: block;
-    height: 12px;
+    height: 14px;
     margin-bottom: 20px;
-    margin-top: 20px;
     overflow: hidden;
     position: relative;
-    width: 90%;
+    width: 100%;
+    position: relative;
+}
+
+.progressbar-head {
+    font-size: 20px;
+    font-family: "Raleway",sans-serif;
 }
 
 .brand-icons {
-    width: 10%;
-    float: left;
+    min-width: 20px;
+    max-width: 50px;
+    margin-top: 5px;
+    float: right;
 }
 .row-icons {
     margin-top: 50px;
 }
+
+.skills-header {
+    text-align: center;
+}
+
+.skills {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.progressbar-wp {
+    background: #7C3B39 none repeat scroll 0% 0%;
+    position: absolute;
+    height: 14px;
+}
+
+.progressbar-html {
+    background: #EE6610 none repeat scroll 0% 0%;
+    position: absolute;
+    height: 14px;
+}
+
+.progressbar-css {
+    background: #296275 none repeat scroll 0% 0%;
+    position: absolute;
+    height: 14px;
+}
+
+.progressbar-bs {
+    background: #43AA4E none repeat scroll 0% 0%;
+    position: absolute;
+    height: 14px;
+}
+
 
