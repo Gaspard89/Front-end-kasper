@@ -166,6 +166,18 @@ hr {
     
 }
 
+.circle-hide {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding-top: 130px;
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px #161414;
+    
+}
+
 .fa {
     position: absolute;
     width: 100%;
@@ -180,4 +192,6 @@ hr {
     float: right;
 }
 
-
+.portfolio {
+    height: 500px;
+}

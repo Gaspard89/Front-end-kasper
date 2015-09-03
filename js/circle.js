@@ -1,14 +1,25 @@
 $(document).ready(function(){
+ $('.circle-hide').hide();   
     
-    $('.first-circle').mouseover(function() {
-        $('.pen-icon').hide();
-         $('.circle-title').hide();
-        $('#gowno2').show();
-    })
+    $('.circles').mouseover(function() {
+        
+        var child = $(this)[0].children[0];
+        var word = $(this)[0].children[1];
+        var hidden = $(this)[0].children[2];
+        $(child).fadeOut(300);
+        $(word).fadeOut(300);
+        $(hidden).fadeIn(300);
+        })
     
-      $('.first-circle').mouseleave(function() {
-        $('.pen-icon').show();
-         $('.circle-title').show();
-        $()
+      $('.circles').mouseleave(function() {
+        var child = $(this)[0].children[0];
+        var word = $(this)[0].children[1];
+        var hidden = $(this)[0].children[2];
+        $(child).fadeIn(300);
+        $(word).fadeIn(300);
+        $(hidden).fadeOut(300);
     })
+      
+
 });
+circle-hide
