@@ -1,0 +1,28 @@
+.logo {
+    text-transform: uppercase;
+    color: #fefefe;
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+    text-transform: none;
+    font-size: 18px;
+    padding: 0px;
+}
+
+.under-logo {
+    font-family: 'Lato', sans-serif;
+    color: #615b5d;
+    font-size: 15px;
+    padding: 0px;
+    text-transform: uppercase;
+    
+}
+
+#description {
+    font-family: 'Lato', sans-serif;
+    color: #fefefe;
+    font-size: 15px;
+    padding: 0px;
+    text-align: center;
+    
+    
+}

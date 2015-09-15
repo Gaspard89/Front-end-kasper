@@ -10,12 +10,8 @@
 <link rel="stylesheet" type="text/css" href="style.css"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Dosis:300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Fjalla+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:600' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
     
     <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
 <!-- Latest compiled and minified CSS -->
@@ -130,6 +126,7 @@
             
             <div class="tab-content">
                 <div class="tab-pane fade in active" id="Developer-skills">
+                    <div class="container">
                     <div class="row">
                         <div class="col-md-8">
                             
@@ -203,21 +200,22 @@
                         </div>
                         <div class="col-md-4">
                             
-                            <div class="row">
-                                <div class="skills-text">
+                            
+                                <div class="resume-text">
                                     
                                     <header>
-                                        <h3 id="skills-h">My Skills</h3>
+                                        <h3 class="resume-head">My Skills</h3>
                                     </header>
                                     
-                                    <p id="skills-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-                            </div>
+                                    <p class="resume-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
                         </div>
                     </div>
                 </div>
+                </div>
                 <div class="tab-pane fade" id="Education">
                     <div class="container">
-                        <h3 id="education-h">Education</h3>
+                        <row>
+                        <div class="col-md-8">
                         <table class="table table-striped">
                             <tr>
                                 <td>Politechnika Opolska</td>
@@ -228,11 +226,47 @@
                                 <td>April 2015</td>
                             </tr>
                         </table>
-                        
+                        </div>
+                        <div class="col-md-4">
+                            <div class="resume-text">
+                                    
+                                    <header>
+                                        <h3 class="resume-head">My Education</h3>
+                                    </header>
+                                    
+                                    <p class="resume-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            </div>
+                        </row>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="Work-experience">
-                    <p>My deve work experience</p>
+                    <div class="container">
+                        <row>
+                        <div class="col-md-8">
+                        <table class="table table-striped">
+                            <tr>
+                                <td>Eldar</td>
+                                <td>April 2015</td>
+                            </tr>
+                            <tr>
+                                <td>Skanska</td>
+                                <td>April 2015</td>
+                            </tr>
+                        </table>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="resume-text">
+                                    
+                                    <header>
+                                        <h3 class="resume-head">My Experience</h3>
+                                    </header>
+                                    
+                                    <p class="resume-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            </div>
+                        </row>
+                    </div>
                 </div>
             </div>
             
@@ -257,7 +291,11 @@
                         <div class="browser-dots"></div>
                         <div class="browser-dots"></div>
                     </div>
-                    <a href="portfolio.html"><img class="portfolio-img" src="img/Przechwytywanie.PNG">
+                    <img class="portfolio-img" src="img/Przechwytywanie.PNG">
+                    <div class="browser-hover">
+                        <span class="browser-loop"></span>
+                        <a href="portfolio.html">
+                    </div>
                     
                 </div>
             </div>
@@ -306,6 +344,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/skills.js"></script>
 <script src="js/circle.js"></script>
+    <script src="portfolio.js"></script>
 
 </body>
 </html>

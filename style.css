@@ -190,14 +190,14 @@ header {
 
 
 
-.skills-text {
+.resume-text {
     background-color: #f0f0f0;
 }
-#skills-p {
+.resume-paragraph {
     padding: 30px;
 }
 
-#skills-h {
+.resume-head {
     padding: 30px 0px 0px 30px;
 }
 
