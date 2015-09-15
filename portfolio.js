@@ -1,18 +1,24 @@
 $(document).ready(function(){
  $('.browser-hover').hide();   
     
-    $('.portfolio-window').mouseover(function() {
+    $('.browser-image').mouseover(function() {
         
-        var hidden = $(this)[0].children[2];
+        var hidden = $(this)[0].children[1];
         $(hidden).fadeIn(300);
         
         })
     
-      $('.portfolio-window').mouseleave(function() {
-        var hidden = $(this)[0].children[2];
+      $('.browser-image').mouseleave(function() {
+        var hidden = $(this)[0].children[1];
         $(hidden).fadeOut(300);
     })
+   
       
+      $('.browser-hover').click(function()  {
+        var page = $(this).attr('id');
+          window.location.replace(page+'.html');
+      
+      })
 
 });
 
