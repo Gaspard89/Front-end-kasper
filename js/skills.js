@@ -34,7 +34,7 @@ setTimeout(function(){
     },0);
 
 setTimeout(function(){
-        $('.gowno').each(function() {
+        $('.bars').each(function() {
             var me = $(this);
             var perc = me.attr("data-percentage");
 
