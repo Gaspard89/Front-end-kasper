@@ -6,7 +6,7 @@ $(document).ready(function(){
 var toScrollOrNotToScroll = true;
 
 $(document).scroll(function(){
-    if($(document).scrollTop() <=20 && toScrollOrNotToScroll)
+    if($(document).scrollTo('.skills-content') && toScrollOrNotToScroll)
     {
 setTimeout(function(){
 
@@ -58,3 +58,20 @@ setTimeout(function(){
 });
 
 
+$.fn.scrollTo = function( target, options, callback ){
+  if(typeof options == 'function' && arguments.length == 2){ callback = options; options = target; }
+  var settings = $.extend({
+    scrollTarget  : target,
+    offsetTop     : 50,
+    duration      : 500,
+    easing        : 'swing'
+  }, options);
+  return this.each(function(){
+    var scrollPane = $(this);
+    var scrollTarget = (typeof settings.scrollTarget == "number") ? settings.scrollTarget : $(settings.scrollTarget);
+    var scrollY = (typeof scrollTarget == "number") ? scrollTarget : scrollTarget.offset().top + scrollPane.scrollTop() - parseInt(settings.offsetTop);
+    scrollPane.animate({scrollTop : scrollY }, parseInt(settings.duration), settings.easing, function(){
+      if (typeof callback == 'function') { callback.call(this); }
+    });
+  });
+}
