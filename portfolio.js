@@ -16,8 +16,7 @@ $(document).ready(function(){
       
       $('.browser-hover').click(function()  {
         var page = $(this).attr('id');
-          window.location.replace(page+'.html');
-      
+		window.location = page + '.html';
       })
 
 });
