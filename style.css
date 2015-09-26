@@ -30,13 +30,13 @@ header {
 
 .header {
     height: 100px;
-    background-color: #EE6610;
+    background-color: #3C948B;
 }
 
 
 .logo {
     text-transform: uppercase;
-    color: #EE6610;
+    color: #3C948B;
     font-family: "Lato",sans-serif;
     font-weight: bold;
     text-transform: none;
@@ -109,7 +109,7 @@ header {
     height: 260px;
     position: relative;
     border: 2px solid #bfbfbf;
-    background: url("img/first-circle.jpg") no-repeat; 
+    background: url("img/pierwsze.jpg") no-repeat; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -120,7 +120,7 @@ header {
     height: 260px;
     position: relative;
     border: 2px solid #bfbfbf;
-    background: url("img/second-circle.jpg") no-repeat; 
+    background: url("img/drugie.jpg") no-repeat; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -131,7 +131,7 @@ header {
     height: 260px;
     position: relative;
     border: 2px solid #bfbfbf;
-    background: url("img/third-circle.jpg") no-repeat; 
+    background: url("img/trzecie_kolo.jpg") no-repeat; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -177,7 +177,7 @@ header {
 
 
 .resume-text {
-    background-color: #ee6010;
+    background-color: #3C948B;
 }
 .resume-paragraph {
     padding: 30px;
