@@ -35,7 +35,7 @@
     <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -48,12 +48,12 @@
                 </h1>
             </a>
         </div>
-        <div class="collapse navbar-collapse" id="example">
+        <div class="collapse navbar-collapse" id="main-nav">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="scroll-link" data-id="profile-navigation">Profile</a></li>
+                <li><a href="#" class="scroll-link" data-id="resume-navigation">Resume</a></li>
+                <li><a href="#" class="scroll-link" data-id="portfolio-navigation">Portfolio</a></li>
+                <li><a href="#" class="scroll-link" data-id="contact-navigation">Contact</a></li>
             </ul>
         </div>
         </div>
@@ -66,7 +66,7 @@
     
     
 <main>
-<div class="profile">
+<div class="profile" id="profile-navigation">
         <div class="container">
             <h1 class="headers">PROFILE <span class="after-header">/</span></h1>
             <hr>
@@ -115,7 +115,7 @@
     
 <!---------------------- RESUME CONTENT ----------------------->
     
-<div class="resume">
+<div class="resume" id="resume-navigation">
         <div class="container">
             <h1 class="headers">RESUME <span class="after-header">/</span></h1>
             <hr>
@@ -280,7 +280,7 @@
     
 <!---------------------- PORTFOLIO CONTENT ----------------------->
     
-<div class="portfolio">
+<div class="portfolio" id="portfolio-navigation">
     <div class="container">
         <h1 class="headers">PORTFOLIO <span class="after-header">/</span></h1>
         <hr>
@@ -356,7 +356,7 @@
 <!---------------------- FOOTER CONTENT ----------------------->    
     
 <footer>
-    <div class="footer-content">
+    <div class="footer-content" id="contact-navigation">
     <div class="container">    
             <h4 class="footer-header">Built & designed with my hands. Source code available on <a href="https://github.com/Gaspard89/Front-end-kasper">Github
                 <i class="fa fa-github fa-2x" id="git-icon"></i></a>
@@ -412,6 +412,7 @@
 <script src="js/skills.js"></script>
 <script src="js/circle.js"></script>
 <script src="portfolio.js"></script>
+<script src="js/navigation.js"></script>
     
 
 </body>

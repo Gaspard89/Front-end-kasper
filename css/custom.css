@@ -142,8 +142,8 @@ img {
 
 .nav-justified > li > a {
     text-align: center;
-    color: #3C948B;
-    border: solid 1px #3C948B;
+    color: #EE6610;;
+    border: solid 1px #EE6610;
     width: 80%;
     min-width: 232px;
     margin-top: 5px;
@@ -152,9 +152,14 @@ img {
     margin-right: auto;
 }
 
+.nav-justified > li > a:hover {
+    border: solid 1px #3C948B;
+}
+
 .nav-pills > li.active > a:hover , .nav-pills > li.active > a {
     color: #fefefe;
     background-color: #3C948B !important;
+    border: solid 1px #3C948B;
 }
 
 .nav > li > a:hover {
@@ -173,6 +178,7 @@ hr {
     margin-bottom: 0px;
     padding-bottom: 0px;
     padding-top: 0px;
+    border-top: 1px solid #8a979b; 
 }
 
 .progressbar-percent {
