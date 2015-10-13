@@ -14,8 +14,8 @@ h3 {
 }
 
 .nav > li {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .navbar-default .navbar-nav li a {
@@ -115,15 +115,15 @@ h3 {
  }
 
 .profile {
-    background-color: #E1E3E3;
+    background-color: #F2F4F4;
 }
 
 .resume {
-    background-color: #E1E3E3;
+    background-color: #F2F4F4;
 }
 
 .portfolio {
-    background-color: #E1E3E3;
+    background-color: #F2F4F4;
 }
 
     
@@ -268,6 +268,24 @@ hr {
     background-color: #EE6610;
 }
 
+.seniodi-content {
+    background-color: #EE6610;
+}
+
+.transport-content{
+    background-color: #EE6610;
+}
+
+.prawko-content{
+    background-color: #EE6610;
+}
+
+.under {
+    display: block;
+    text-align: center;
+    color: #fafafa;
+}
+
 <!---------------------- FOOTER ----------------------->
 
 .h4, h4 {
@@ -360,4 +378,39 @@ footer {
     
 }
 
-    
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
