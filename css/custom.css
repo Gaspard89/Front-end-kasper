@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.scrollable-content {
+    margin-bottom: 30px;
+}
+
 h3 {
     font-family: "Raleway",sans-serif;
 }
